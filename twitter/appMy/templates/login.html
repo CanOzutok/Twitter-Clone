@@ -1,0 +1,266 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <article class="container-formss position-fixed" id="giris">
+        <div class="form singup">
+            <div class="form-content">
+                <div><svg onclick="kapama2()" xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+                    <path d="M16 8L8 16M8 8L16 16" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    </svg></div>
+                    <div class="justify-content-center d-flex"><svg class="nav_logo" viewBox="0 0 24 24" aria-hidden="true" class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path></g></svg></div>    
+                <div class="baslik">Bugün Twitter'a katıl</div>    
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="E-posta" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="text" placeholder="Adınız" class="input">
+                    </div>
+    
+                    <div class="field input-field">
+                        <input type="password" placeholder="Parolanız" class="password">
+                    </div>
+    
+                    <div class="field input-field">
+                        <input type="password" placeholder="Parolanızı doğrulayın" class="password">
+                    </div>
+    
+                    <div class="field button-field">
+                        <button>Kaydol</button>
+                    </div>
+                </form>
+    
+                <div class="form-link">
+                    <span>Zaten hesabınız var mı? <a href="login.html" class="link signup-link">Giriş yap</a></span>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+
+    
+        </div>
+      </article>
+
+
+    <section class="container-forms position-fixed"  id="kayıt">
+        <div class="form login">
+            <div><svg onclick="kapama()" xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+                <path d="M16 8L8 16M8 8L16 16" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                </svg></div>
+          <div class="form-content">
+                <div class="justify-content-center d-flex"><svg class="nav_logo" viewBox="0 0 24 24" aria-hidden="true" class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path></g></svg></div>
+                <div class="baslik">Twitter'a giriş yap</div>
+  
+            <form action="#">
+              <div class="field input-field">
+                <input type="email" placeholder="E-posta" class="input">
+              </div>
+  
+              <div class="field input-field">
+                <input type="password" placeholder="Parola" class="password">
+                
+              </div>
+  
+              <div class="form-link">
+                <a href="#" class="forgot-pass">Şifreni mi unuttun?</a>
+              </div>
+  
+              <div class="field button-field">
+                <button>Giriş</button>
+              </div>
+            </form>
+  
+            <div class="form-link">
+              <span>Henüz bir hesabın yok mu?
+                <a href="" class="link signup-link">Kaydol</a></span>
+            </div>
+          </div>
+  
+          <div class="line"></div>
+          
+
+         
+          
+  
+        </div>
+    </section>
+
+    <header id="logheader" class=" position-fixed d-flex" style="bottom: 0; background-color: rgb(0, 146, 230); width: 100%; margin-left: -43px;">
+       <div class="b1" style=" flex: 0.2; margin-left: 83px;" ></div>
+       <div class="b2" style="flex: 0.5;">
+            <p class="fw-bolder" style="color: white; font-size: x-large;">Olup bitenleri kaçırma</p>
+            <p style="color: white;">İlk öğrenen Twitter kullanıcıları olacak.</p>
+       </div>
+       <div class="b3 d-flex justify-content-end align-items-center" style="flex:0.3; ">
+        <button class=" fw-bolder" onclick="grs()" style="background-color: rgb(0, 165, 242); min-width: 120px;" type="submit">Giriş yap</button>
+
+          
+      
+        <button class=" fw-bolder" onclick="kayit()" type="submit">Kaydol</button></div>
+    </header>
+
+    <nav id="nav">
+        <div class="useless"></div>
+    <div class="nav_logo-wrapper">
+        <svg class="nav_logo" viewBox="0 0 24 24" aria-hidden="true" class="r-1cvl2hr r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path></g></svg>
+    </div>
+
+
+    <div class="Menu_options  mt-4">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+            <path d="M10.6923 6L7.69231 19M6.38462 9.5H18.8847M16.1924 6L13.1924 19M5 15.5H17.5001" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+            </svg></span>
+        <h2>Keşfet</h2>
+    </div>
+
+
+    <div class="Menu_options">
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+            <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.9965 12H16.0054" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.9955 12H12.0045" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.99451 12H8.00349" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></span>
+        <h2>Daha fazla</h2>
+    </div> 
+
+
+
+
+    </nav>
+
+
+
+
+
+    <main id="main" class="logmain">
+        
+    
+
+
+
+        <div class="aside_input">
+            <span class="material-icons aside_search-icon pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <path d="M17 17L21 21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#323232" stroke-width="2"/>
+                </svg></span>
+            <input type="text" placeholder="Twitter'da Ara">
+        
+        </div>
+        
+        
+        <div class="card" id="card" style="background-color: white !important; border:none" >
+            <h4>ilgini çekebilicek gündemler</h4>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+        
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+        </div>
+        <hr>
+    
+    
+    
+    
+        <hr>
+    
+    </main> 
+
+
+
+    <aside id="aside" class="logside">
+
+        <div class="col-10">
+            <h5 class="fw-bolder pt-4 ps-4">Twitter'da yeni misin?</h5>
+            <p class="text-muted ps-4">Kişiselleştirilmiş zaman akışını almak için hemen kaydol!</p>
+        </div>
+        <div class="d-grid gap-3 col-10 mx-auto">
+            <button class="btn " type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                <path d="M19.76 10.77L19.67 10.42H12.23V13.58H16.68C16.4317 14.5443 15.8672 15.3974 15.0767 16.0029C14.2863 16.6084 13.3156 16.9313 12.32 16.92C11.0208 16.9093 9.77254 16.4135 8.81999 15.53C8.35174 15.0685 7.97912 14.5191 7.72344 13.9134C7.46777 13.3077 7.33407 12.6575 7.33 12C7.34511 10.6795 7.86792 9.41544 8.79 8.47002C9.7291 7.58038 10.9764 7.08932 12.27 7.10002C13.3779 7.10855 14.4446 7.52101 15.27 8.26002L17.47 6.00002C16.02 4.70638 14.1432 3.9941 12.2 4.00002C11.131 3.99367 10.0713 4.19793 9.08127 4.60115C8.09125 5.00436 7.19034 5.59863 6.43 6.35002C4.98369 7.8523 4.16827 9.85182 4.15152 11.9371C4.13478 14.0224 4.918 16.0347 6.34 17.56C7.12784 18.3449 8.06422 18.965 9.09441 19.3839C10.1246 19.8029 11.2279 20.0123 12.34 20C13.3484 20.0075 14.3479 19.8102 15.2779 19.42C16.2078 19.0298 17.0488 18.4549 17.75 17.73C19.1259 16.2171 19.8702 14.2347 19.83 12.19C19.8408 11.7156 19.8174 11.2411 19.76 10.77Z" fill="#000000"/>
+                </svg>     Google ile kaydolun</button>
+            <button class="btn fw-bolder" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 24 24" fill="none">
+                <path d="M16.52 12.46C16.508 11.8438 16.6682 11.2365 16.9827 10.7065C17.2972 10.1765 17.7534 9.74476 18.3 9.46C17.9558 8.98143 17.5063 8.5883 16.9862 8.31089C16.466 8.03349 15.8892 7.87923 15.3 7.86C14.03 7.76 12.65 8.6 12.14 8.6C11.63 8.6 10.37 7.9 9.40999 7.9C7.40999 7.9 5.29999 9.49 5.29999 12.66C5.30963 13.6481 5.48194 14.6279 5.80999 15.56C6.24999 16.84 7.89999 20.05 9.61999 20C10.52 20 11.16 19.36 12.33 19.36C13.5 19.36 14.05 20 15.06 20C16.79 20 18.29 17.05 18.72 15.74C18.0689 15.4737 17.5119 15.0195 17.1201 14.4353C16.7282 13.8511 16.5193 13.1634 16.52 12.46ZM14.52 6.59C14.8307 6.23965 15.065 5.82839 15.2079 5.38245C15.3508 4.93651 15.3992 4.46569 15.35 4C14.4163 4.10239 13.5539 4.54785 12.93 5.25C12.6074 5.58991 12.3583 5.99266 12.1983 6.43312C12.0383 6.87358 11.9708 7.34229 12 7.81C12.4842 7.82361 12.9646 7.71974 13.3999 7.50728C13.8353 7.29482 14.2127 6.98009 14.5 6.59H14.52Z" fill="#000000"/>
+                </svg> Apple ile kaydol</button>
+            <button class="btn fw-bolder" type="button">Hesap oluştur</button>
+          </div>
+
+        <p class="pt-3 ps-4 text-muted"> <a href="">Hizmet Şartları</a>
+            <a href="">Gizlilik Politikası</a>
+            <a href="">Çerez Politikası</a>
+            <a href="">Imprint</a>
+            <a href="">Erişilebilirlik</a>
+            <a href="">Reklam bilgisi</a>
+            <a href="">Daha fazla</a></p>
+
+
+    </aside>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>
+        function grs() {
+            document.getElementById("kayıt").style.display = "flex"
+            document.getElementById("giris").style.display = "none"
+            document.getElementById("aside").style.opacity = ".4"
+            document.getElementById("main").style.opacity = "0.4"
+            document.getElementById("nav").style.opacity = ".4"
+            document.getElementById("logheader").style.display = "none"
+            document.getElementById("card").style.display = "none"
+        }
+        function kayit() {
+            document.getElementById("giris").style.display = "flex"
+            document.getElementById("kayıt").style.display = "none"
+            document.getElementById("aside").style.opacity = ".4"
+            document.getElementById("main").style.opacity = "0.4"
+            document.getElementById("nav").style.opacity = ".4"
+            document.getElementById("logheader").style.display = "none"
+            document.getElementById("card").style.display = "none"
+        }
+        function kapama() {
+            document.getElementById("kayıt").style.display = "none"
+            document.getElementById("aside").style.opacity = "1"
+            document.getElementById("main").style.opacity = "1"
+            document.getElementById("nav").style.opacity = "1"
+            document.getElementById("card").style.display = "block"
+        }
+        function kapama2() {
+            document.getElementById("giris").style.display = "none"
+            document.getElementById("aside").style.opacity = "1"
+            document.getElementById("main").style.opacity = "1"
+            document.getElementById("nav").style.opacity = "1"
+            document.getElementById("card").style.display = "block"
+        }
+
+
+
+
+    </script>
+</body>
+</html>

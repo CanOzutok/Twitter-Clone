@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+
+
+{% block body %}
+    <main>
+    <div class="main_ust d-flex" style="border: 1px solid rgb(217, 217, 217);">   
+        <div class="main_back pt-3 ps-3"><svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px" viewBox="0 0 1024 1024"><path fill="#000000" d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"/><path fill="#000000" d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"/></svg>
+        </div>
+        <div class="header pt-0">
+            <h2>Can</h2>
+            <h6 class="text-muted">12 Tweet</h6>
+        </div>
+    </div>
+
+    <div class="cover_photo">
+        <img src="..." class="img-fluid" alt="...">
+    </div>    
+
+    <div class="user_profil_photo">
+        <img src="{% static 'img/c1.jpg' %}" class="img-thumbnail" alt="profil-image">
+    </div>
+
+    <div class="profil_bottom-icon p-2 d-flex justify-content-end align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+            <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.9965 12H16.0054" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.9955 12H12.0045" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.99451 12H8.00349" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                    <g>
+                        <path d="M437.073,118.634V43.707H0v349.659h74.927v74.927H512V118.634H437.073z M437.073,156.098h35.468l-35.468,33.251V156.098z     M37.463,130.652V81.171l181.073,168.585L399.61,81.171v49.48L218.537,300.408L37.463,130.652z M474.537,430.829H112.39v-37.463    h324.683V240.7l37.463-35.122V430.829z"/>
+                    </g>
+                </g>
+                </svg>
+            <button class="followb mb-2 position-sticky" type="submit">Takip et</button>
+    </div>
+
+    <h3 class="ps-3">Can</h3>
+    <h6 class="ps-3">@username</h6>
+
+    <p  class="ps-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+    <!-- locations - https - register date -->
+    <div class="ps-3 takipci d-flex">
+        <p><span>481</span>Takip edilen</p>
+        <p class="ms-4"><span>493</span>Takipçi</p>
+    </div>
+
+
+    <hr>
+
+    <div class="post">
+        <div class="post_profile-image">
+            <img src="/" alt="profil" >
+
+        </div>
+
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_header-text">
+                    <h3>Can Özütok
+                        <span class="header-icon-section">
+                            </span>@Can
+                        </span>
+                    </h3>
+                </div>
+
+                <div class="post_header-write">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vel incidunt non a beatae amet</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis sint voluptate tenetur praesentium placeat adipisci consectetur, consequatur fugit tempora modi tempore porro nesciunt quis eius alias, eos aliquid quam.</p>
+                </div>
+                
+            </div>
+            <img src="/" alt="media eklenicek">
+
+            <div class="post_footer">
+
+                <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 1024 1024"><path fill="#000000" d="m174.72 855.68 130.048-43.392 23.424 11.392C382.4 849.984 444.352 864 512 864c223.744 0 384-159.872 384-352 0-192.832-159.104-352-384-352S128 319.168 128 512a341.12 341.12 0 0 0 69.248 204.288l21.632 28.8-44.16 110.528zm-45.248 82.56A32 32 0 0 1 89.6 896l56.512-141.248A405.12 405.12 0 0 1 64 512C64 299.904 235.648 96 512 96s448 203.904 448 416-173.44 416-448 416c-79.68 0-150.848-17.152-211.712-46.72l-170.88 56.96z"/></svg></span>
+                <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="22px" width="22px" version="1.1" id="_x32_" viewBox="0 0 512 512" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#000000;}
+                    </style>
+                    <g>
+                        <path class="st0" d="M509.86,267.434c-2.785-4.717-7.858-7.613-13.338-7.613h-43.677v-108.21   c0.014-19.402-7.962-37.293-20.698-49.971c-12.678-12.738-30.57-20.721-49.973-20.699l-194.482-0.007   c-6.088,0-11.731,3.222-14.818,8.472c-3.089,5.243-3.178,11.738-0.222,17.062l17.55,31.65c3.792,6.828,10.99,11.072,18.795,11.072   h173.178c0.786,0.014,1.17,0.214,1.71,0.703c0.49,0.548,0.696,0.933,0.711,1.718v108.21h-43.678c-5.48,0-10.553,2.896-13.338,7.613   c-2.777,4.74-2.858,10.575-0.199,15.374l77.802,140.29c2.726,4.918,7.91,7.969,13.538,7.969s10.812-3.051,13.537-7.969   l77.802-140.29C512.719,278.009,512.637,272.174,509.86,267.434z"/>
+                        <path class="st0" d="M321.791,373.873c-3.792-6.835-10.983-11.071-18.796-11.071h-173.17c-0.785-0.014-1.17-0.214-1.711-0.703   c-0.488-0.541-0.696-0.926-0.71-1.71v-108.21h43.678c5.473,0,10.553-2.896,13.337-7.613c2.778-4.74,2.859-10.575,0.201-15.374   l-77.802-140.29c-2.733-4.918-7.91-7.969-13.537-7.969c-5.629,0-10.805,3.051-13.538,7.969L1.94,229.192   c-2.658,4.798-2.577,10.634,0.2,15.374c2.785,4.717,7.865,7.613,13.338,7.613h43.678v108.21   c-0.015,19.402,7.961,37.294,20.698,49.972c12.678,12.737,30.57,20.714,49.972,20.69l194.476,0.008   c6.086,0,11.73-3.222,14.818-8.472c3.087-5.251,3.177-11.738,0.222-17.07L321.791,373.873z"/>
+                    </g>
+                    </svg></span>
+                <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="22px" viewBox="0 0 32 32" version="1.1">
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M21.886 5.115c3.521 0 6.376 2.855 6.376 6.376 0 1.809-0.754 3.439-1.964 4.6l-10.297 10.349-10.484-10.536c-1.1-1.146-1.778-2.699-1.778-4.413 0-3.522 2.855-6.376 6.376-6.376 2.652 0 4.925 1.62 5.886 3.924 0.961-2.304 3.234-3.924 5.886-3.924zM21.886 4.049c-2.345 0-4.499 1.089-5.886 2.884-1.386-1.795-3.54-2.884-5.886-2.884-4.104 0-7.442 3.339-7.442 7.442 0 1.928 0.737 3.758 2.075 5.152l11.253 11.309 11.053-11.108c1.46-1.402 2.275-3.308 2.275-5.352 0-4.104-3.339-7.442-7.442-7.442v0z" fill="#000000">
+                    
+                    </path>
+                    </svg></span>
+                <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24" fill="none">
+                    <path d="M20 13V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18L4 13M16 8L12 4M12 4L8 8M12 4L12 16" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </main>
+    
+    
+    
+    
+    <aside>
+        <div class="aside_input">
+            <span class="material-icons aside_search-icon pe-2"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <path d="M17 17L21 21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#323232" stroke-width="2"/>
+                </svg></span>
+            <input type="text" placeholder="Twitter'da Ara">
+ 
+        </div>
+
+        <div class="card">
+            <h4>ilgini çekebilicek gündemler</h4>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+       
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <h5 class="card-title-muted">Card title</h5>
+              <p class="card-text text-muted">Some quick example text to build </p>
+            </div>
+          </div>
+
+
+    </aside>
+
+
+{% endblock body %}
+
